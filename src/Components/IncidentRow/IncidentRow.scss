@@ -1,0 +1,50 @@
+@import '../../Styles/variables';
+
+.incident-row {
+  background: #f8f8f8;
+  margin-bottom: 10px;
+  cursor: pointer;
+  box-shadow: $box-shadow;
+  display: flex;
+  color: rgba($color: #191919, $alpha: 0.8);
+  border-radius: 2px;
+
+  &__info-wrapper {
+    display: flex;
+    flex: 1;
+    padding: 20px 10px;
+    transition: padding 0.2s;
+    flex-direction: column;
+    &__details {
+      h4 {
+        margin: 0;
+        text-transform: uppercase;
+      }
+    }
+  }
+  &:hover {
+    .incident-row__info-wrapper {
+      padding: 30px 10px;
+    }
+  }
+
+  &__severity {
+    display: flex;
+    width: 80px;
+    &.major {
+      background: rgba(#d31a1a, 0.8);
+    }
+
+    &.minor {
+      background: rgba(#e38080, 0.8);
+    }
+
+    &.moderate {
+      background: rgba(#b8c2f0, 0.8);
+    }
+
+    &.unknown {
+      background: grey;
+    }
+  }
+}

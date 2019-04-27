@@ -1,0 +1,50 @@
+@import '../../Styles/mixins';
+
+.incident-detailed-view {
+  max-width: 800px;
+  margin: 0 auto;
+  h2 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__info {
+    display: flex;
+    flex: 1;
+    margin: 30px 0;
+    align-items: flex-end;
+    &__type, &__delay {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      span {
+        font-weight: 600;
+      }
+    }
+
+    &__type {
+      img {
+        height: 40px;
+        margin-bottom: 10px;
+      }
+    }
+
+    &__delay {
+      label {
+        text-transform: uppercase;
+      }
+
+      span {
+        color: red;
+      }
+    }
+  }
+
+  &__route-wrapper {
+    background: #e4e4e4;
+    padding: 30px;
+    @include magnitude-bg;
+  }
+}

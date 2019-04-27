@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Incident Route should render correctly 1`] = `ShallowWrapper {}`;
+
+exports[`Incident should render correctly 1`] = `ShallowWrapper {}`;

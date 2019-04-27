@@ -1,0 +1,38 @@
+@import '../../Styles/variables';
+
+.incident-wrapper {
+  position: absolute;
+  width: 40px;
+  border: 14px solid;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: width 0.5s, height 0.5s;
+  background: rgba($color: #ffffff, $alpha: 0.8);
+  box-shadow: $box-shadow;
+
+  &:hover {
+    width: 70px;
+    height: 70px;
+  }
+
+  &.major {
+    border-color: rgba(#d31a1a, 0.8);
+  }
+
+  &.minor {
+    border-color: rgba(#e38080, 0.8);
+  }
+
+  &.moderate {
+    border-color: rgba(#b8c2f0, 0.8);
+  }
+
+  .severity-label {
+    font-size: 8px;
+    font-weight: 500;
+  }
+}

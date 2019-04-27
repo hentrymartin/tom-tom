@@ -1,0 +1,16 @@
+.route-affected {
+  display: flex;
+  align-items: center;
+  &__from,
+  &__to {
+    font-size: 12px;
+    max-width: 100px;
+    padding: 10px;
+    font-style: italic;
+  }
+  &__line {
+    display: flex;
+    flex: 1;
+    border: 2px dashed #ffa7a7;
+  }
+}
