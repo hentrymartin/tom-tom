@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux';
-import RoadEventsReducer from './RoadEventsReducer';
+import RoadIncidentsReducer from './RoadIncidentsReducer';
 
 export default combineReducers({
-  RoadEventsReducer,
+  RoadIncidentsReducer,
 });

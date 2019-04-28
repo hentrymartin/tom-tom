@@ -5,7 +5,7 @@ const initialState = {
   incident: {},
 };
 
-export default function RoadEventsReducer(state = initialState, action) {
+export default function RoadIncidentsReducer(state = initialState, action) {
   switch (action.type) {
     case ROAD_INCIDENTS_RECEIVED:
       return {

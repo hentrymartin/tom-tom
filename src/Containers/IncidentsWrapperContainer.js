@@ -3,7 +3,7 @@ import { getRoadIncidents } from '../Actions/RoadEventsAction';
 import IncidentsWrapper from '../Components/IncidentsWrapper';
 
 const mapStateToProps = store => ({
-  roadIncidents: store.RoadEventsReducer.roadIncidents,
+  roadIncidents: store.RoadIncidentsReducer.roadIncidents,
 });
 
 const mapDispatchToProps = dispatch => ({
