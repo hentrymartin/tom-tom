@@ -5,9 +5,4 @@ const mapStateToProps = store => ({
   roadIncidents: store.RoadEventsReducer.roadIncidents,
 });
 
-const mapDispatchToProps = () => {};
-
-export default connect(
-  mapStateToProps,
-  mapDispatchToProps,
-)(ListView);
+export default connect(mapStateToProps)(ListView);

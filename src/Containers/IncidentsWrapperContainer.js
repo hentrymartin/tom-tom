@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
-import AppWrapper from '../Components/AppWrapper';
 import { getRoadIncidents } from '../Actions/RoadEventsAction';
+import IncidentsWrapper from '../Components/IncidentsWrapper';
 
 const mapStateToProps = store => ({
   roadIncidents: store.RoadEventsReducer.roadIncidents,
@@ -15,4 +15,4 @@ const mapDispatchToProps = dispatch => ({
 export default connect(
   mapStateToProps,
   mapDispatchToProps,
-)(AppWrapper);
+)(IncidentsWrapper);
