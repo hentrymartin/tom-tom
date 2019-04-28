@@ -10,7 +10,8 @@ export default function RoadEventsReducer(state = initialState, action) {
     case ROAD_INCIDENTS_RECEIVED:
       return {
         ...state,
-        roadIncidents: action.roadIncidents,
+        // This will sort the incidents by descending on delay
+        roadIncidents: action.roadIncidents.sort((a, b) => b.delay - a.delay),
       };
     case ROAD_INCIDENT_RECEIVED_BY_ID:
       return {

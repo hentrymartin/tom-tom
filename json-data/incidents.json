@@ -75,7 +75,7 @@
       "from": "Blockdammweg (Rummelsburger Landstraße/L1075)",
       "to": "Treskowallee - Edisonstraße (Rummelsburger Straße/L1075)",
       "details": "carriageway reduced to one lane",
-      "delay": 190,
+      "delay": 88,
       "magnitude": 2
     },
     {
@@ -88,7 +88,7 @@
       "from": "Blockdammweg (Rummelsburger Landstraße/L1075)",
       "to": "Treskowallee - Edisonstraße (Rummelsburger Straße/L1075)",
       "details": "carriageway reduced to one lane",
-      "delay": 190,
+      "delay": 40,
       "magnitude": 3
     },
     {
@@ -101,7 +101,7 @@
       "from": "Blockdammweg (Rummelsburger Landstraße/L1075)",
       "to": "Treskowallee - Edisonstraße (Rummelsburger Straße/L1075)",
       "details": "carriageway reduced to one lane",
-      "delay": 190,
+      "delay": 20,
       "magnitude": 0
     },
     {
@@ -114,7 +114,7 @@
       "from": "Blockdammweg (Rummelsburger Landstraße/L1075)",
       "to": "Treskowallee - Edisonstraße (Rummelsburger Straße/L1075)",
       "details": "carriageway reduced to one lane",
-      "delay": 190,
+      "delay": 30,
       "magnitude": 3
     },
     {
@@ -127,7 +127,7 @@
       "from": "Blockdammweg (Rummelsburger Landstraße/L1075)",
       "to": "Treskowallee - Edisonstraße (Rummelsburger Straße/L1075)",
       "details": "carriageway reduced to one lane",
-      "delay": 190,
+      "delay": 95,
       "magnitude": 2
     },
     {
@@ -140,7 +140,7 @@
       "from": "Blockdammweg (Rummelsburger Landstraße/L1075)",
       "to": "Treskowallee - Edisonstraße (Rummelsburger Straße/L1075)",
       "details": "carriageway reduced to one lane",
-      "delay": 190,
+      "delay": 75,
       "magnitude": 1
     },
     {
@@ -153,7 +153,7 @@
       "from": "Blockdammweg (Rummelsburger Landstraße/L1075)",
       "to": "Treskowallee - Edisonstraße (Rummelsburger Straße/L1075)",
       "details": "carriageway reduced to one lane",
-      "delay": 190,
+      "delay": 83,
       "magnitude": 3
     }
   ]
